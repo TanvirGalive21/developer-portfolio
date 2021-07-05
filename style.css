@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
 }
 h1 {
@@ -8,8 +8,11 @@ h1 {
 h2 {
     font-size: 40px;
 }
+.blue-color {
+   color:#6156DC
+}
 .orange-color {
-    color: orange;
+    color: coral;
 }
 .flexible-container{
     display: flex;
@@ -42,6 +45,11 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+    padding-bottom: 20px;
 }
 .experience-area {
     background-image: url(images/exp-bg.png);
