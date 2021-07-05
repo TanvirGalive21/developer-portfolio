@@ -23,17 +23,25 @@ h2 {
     padding-left: 7%;
 
 }
+p {
+    margin-bottom: 30px;
+}
 .half-width img {
     width:80%;
 }
 .link-button {
     text-decoration: none;
+    text-transform: uppercase;
     background-image: linear-gradient(red, coral);
     padding: 10px 40px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+.link-button:hover {
+    background-image: linear-gradient(coral, #6156DC);
+    transition:all 0.3s ease;
 }
 .top-banner {
     background-image: url(images/top-banner.png);
@@ -65,15 +73,16 @@ h2 {
     box-shadow: 10px 10px 40px grey;
 }
 #web-dev-experience {
-    border-left: 7px solid;
+    border-top: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 #full-stack-experience {
-    border-left: 7px solid;
+    border-top: 7px solid;
     border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
+    color: coral;
 }
